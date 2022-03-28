@@ -23,8 +23,10 @@ imgCanny=cv.Canny(imgGray,50,50)
 so that we are able to find the contours in our image : 
 contour,steps=cv.findContours(img,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_NONE)
 
+# Number of Pol
+
 #Out Put
-https://github.com/mohammadst99/shape_detection/blob/main/test.png
+[![Watch Video](https://github.com/mohammadst99/shape_detection/blob/main/test.png)](https://github.com/mohammadst99/shape_detection)
 
 
 after that we need to calculate the Area and number of polygon in each contours 
