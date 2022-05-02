@@ -47,7 +47,7 @@ def stackImages(scale,imgArray):
         return ver
 
 
-path='sources/shapes.png'
+path='test.png'
 img=cv.imread(path)
 imgCopy=img.copy()
 
